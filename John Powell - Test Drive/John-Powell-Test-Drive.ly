@@ -36,9 +36,9 @@ trumpetC = \relative c'' {
   r4 b4 b4 c4 c4. a8 f2
   
   % lower
-  << b2 d2 >> << a2 d2 >> << c4. e4. >> << c8 f8 >> << a,2 f'2 >>
+  << b,2 d2 >> << a2 d2 >> << c4. e4. >> << c8 f8 >> << a,2 f'2 >>
   r4 << a,4 d4 >> << d4 f4 >> << d4 a'4 >> << c,4. e4. >> << c8 f8 >> << f2 a,2 >>
-  f4 c'4 a4. a8 a4 a8 a8 g2
+  f'4 c'4 a4. a8 a4 a8 a8 g2
   d4 d8 e8 d8 c8 b8 a8
   
   % high
