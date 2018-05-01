@@ -25,7 +25,11 @@ trumpetC = \relative c'' {
   b8 | a8. b16 a8 g8 | f8 a8 d8 f,8 | a8. b16 a8 g8 | f8 e8 d4 \breathe
   \break
   \repeat volta 2{
-    g8. g16 g8 g8 | a8. a16 a8 \breathe | f16 f f f e8 f8 |
+    g8. g16 g8 g8 | a8. a16 a4 \breathe | f16 f f f e8 f8 |
+  }
+  \alternative {
+    { g8 b8 d4 }
+    { g,4 r4 }
   }
 }
 
