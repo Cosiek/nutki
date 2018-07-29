@@ -22,37 +22,38 @@ trumpetBb = \relative c'' {
   \break
   r8. e8. d8 c16 c8 d16( |d8.) d8 e16 d8 c16 a8 g16 |
   c8 a16 a8 g16 c8 a16 a8 g16 | a8 c16 (c8.)  r4 r8|
-  \break
   r2 r4
-  \break
+  \break % a4
   \mark "Zwrotka"
   d8 d16 r2 r16 | d8 c16 d8 c16 d8. d8 e16 |
-  d8 d16 r2 r16 | d8 c16 d8 c16 d8. d8 e16 |
-  d8 d16 r8 r16 c8 c16 r8 r16 | a8 a16 r8 r16 d,8 e4 |
+  d8 d16 r2 r16 | 
   \break
+  d8 c16 d8 c16 d8. d8 e16 |
+  d8 d16 r8 r16 c8 c16 r8 r16 | a8 a16 r8 r16 d,8 e4 |
   r2 r4 | r2 r4 |
   \break
   d'8 d16 r16 r2 | d8 c16 d8 c16 d8.d8 e16 | 
-  d8 d16 r2 c16 | d8 c16 d8 c16 d8. d8 e16 |
-  d8 d16 r16 r8 c8 c16 r16 r8 | a8 a16 r8 r16 d,8 e4 |
+  d8 d16 r2 c16 | 
   \break
-  r2 r4 | r4.
-  d'8 e16 d8 c16 | a8. c16 r8 a8. c16 r8 |
+  d8 c16 d8 c16 d8. d8 e16 |
+  d8 d16 r16 r8 c8 c16 r16 r8 | a8 a16 r8 r16 d,8 e4 |
+  r2 r4 | 
+  \break
+  r4. d'8 e16 d8 c16 | a8. c16 r8 a8. c16 r8 |
   a8. c16 r8 d8 e16 d8. | 
   \break
   a8. c16 r8 a8. c16 r8 | a8. c16 r8 d8 e16 d8. |
   a8. c16 r8 a8. c16 r8 | a8. c16 r8 d8 e16 d8. |
   r4 r16 c16 d8 c16 d8 c16 | d8. d4 r8 a8.|
   \break
-  
   \mark "Refren"
   r8. c8. a8 a8. c16 (|c8.) c8 c16 a8 a16 a8 c16 |
   c8 c16 c8 c16 d8 a16 a8 g16 | a8 c4 r4 r8 |
   \break
   r8. e8. d8 c16 c8 d16( |d8.) d8 e16 d8 c16 a8 g16 |
   c8 a16 a8 g16 c8 a16 a8 g16 | a8 c16 (c8.)  r4 r8|
-  
   \break
+  \mark "ref"
   r8. c8. a8 a8. c16 (|c8.) c8 c16 a8 a16 a8 c16 |
   c8 c16 c8 c16 d8 a16 a8 g16 | a8 c4 r4 r8 |
   \break
@@ -65,6 +66,7 @@ trumpetBb = \relative c'' {
   d8 d16 r16 r2 | d8 c16 d8 c16 d8. d8 e16 |
   d8 d16 r2 r16 | 
   % a18
+  \break
   d8 c16 d8 c16 d8. d8 e16 |
   d8 d16 r8 r16 c8 c16 r8 r16 | a8 a16 r8 a16 d,8 e4 |
   % a19
@@ -73,11 +75,11 @@ trumpetBb = \relative c'' {
   d'8 d16. r32 r2 | d8 c16 d8 c16 d8.d8 e16 | 
   d8 d16 r2 c16 | d8 c16 d8 c16 d8. d8 e16 |
   d8 d16 d8 d16 d8 c16 d8. | c8 d8. e8 r8 d'8 e16 |
-  d4. c8 a8 r8 | 
-  % a22
-  r8 a,16 a8 a16 d8 d16 d8 c16 | 
+  \mark "dai-sy-y" d4. c8 a8 r8 | 
+  \break % a22
+  r8 a,16 a8 a16 \breathe d8 d16 d8 c16 | 
   a8. c16 r8 a8. c16 r8 | a8. c16 r8 d8 e16 d8. |
-  % a23 
+  \break % a23 
   a8. c16 r8 a8. c16 r8 | a8. c16 r8 d8 e16 d8. |
   a8. c16 r8 a8. c16 r8 | a8. c16 r8 d8 e16 d8. |
   % a24
@@ -100,6 +102,7 @@ trumpetBb = \relative c'' {
   a8 a8 a8 | %{ a30 %} a4. c4. | 
   d16 e16 d8. c16 d16 e16 d8. c16 | d16 c16 a4 r16 r8.
   c8 | %{ a31 %} d16 c16 a4 \breathe a8 a8 a8 | a4. c4. | 
+  \break
   d16 e16 d8. c16 d16 e16 d8. c16 |
   % a32
   d16 c16 a4 r16 r8. c8 | %{ a31 %} d16 c16 a4 r8 r4 |
