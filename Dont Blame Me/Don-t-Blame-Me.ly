@@ -127,7 +127,7 @@ trumpetBb = \relative c'' {
   \break
   \mark "Sopranowy refren"
   b'8. b8. a8 g16 g8 a16 ( | a8.) a8 b16 a8 g16 e8 d16 |
-  g8 e16 e8 d16 g8 e16 e8 d16 | e8 g16 (g8.) r4.
+  g8 e16 e8 d16 g8 e16 e8 d16 | e8 g4 r4.
   \break
   r8. b8. a8 g16 g8 a16( |a8.) a8 b16 a8 g16 e8 d16 |
   g8 e16 e8 d16 g8 e16 e8 d16 | e8 g16 (g8.)  r4 r8|
