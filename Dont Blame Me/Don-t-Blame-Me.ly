@@ -95,9 +95,9 @@ trumpetBb = \relative c'' {
   r8. a8. g8 f16 f8 g16( |g8.) g8 a16 g8 f16 d8 c16 |
   f8 d16 d8 c16 f8 d16 d8 c16 | d8 f16 (f8.)
   \breathe \mark "I get so..."
-  d8 d8 d8 | %{ a30 %} d4. f4. | 
+  a8 a8 a8( | %{ a30 %} a4.) c4. |
   g16 a16 g8. f16 g16 a16 g8. f16 | g16 f16 d4 r16 r8.
-  f8 | %{ a31 %} g16 f16 d4 \breathe d8 d8 d8 | d4. f4. | 
+  f8 | %{ a31 %} g16 f16 d4 \breathe c'8 c8 c8( | d4.) e4. |
   \break
   g16 a16 g8. f16 g16 a16 g8. f16 |
   % a32
