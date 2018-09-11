@@ -102,8 +102,8 @@ trumpetBb = \relative c'' {
   g,16 a16 g8. f16 g16 a16 g8. f16 |
   % a32
   g16 f16 d4 r16 r8. f8 | %{ a31 %} g16 f16 d4 r8 r4 |
-  g16 a16 g8. f16 g16 a16 g8. f16 |
-  %{ a33 %} g16 f16 d4 r8 r4 |
+  \mark "cicho" g16 a16 g8. f16 g16 a16 g8. f16 |
+  %{ a33 %} g16 f16 d4 r8 r4 \breathe |
   \break
   %{ przejście na sop %}
   e'8. e8. d8 c16 c8 d16 ( | d8.) d8 e16 d8 c16 a8 g16 |
