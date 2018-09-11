@@ -114,7 +114,7 @@ trumpetBb = \relative c'' {
   f'8 f16 f8 g16 a8 f16 g8. | f8 d4
   \mark "solo wokalne" f8( g16 f8 a16 |
   \break % a35
-  a8.) \mark "Refren"
+  a8) r16 \mark "Refren"
   f,8. d8 d8. f16 (| f8.) f8 f16 d8 d16 d8 f16 |
   f8 f16 f8 f16 g8 d16 d8 c16 | d8 f4 r8 r4 |
   \break
