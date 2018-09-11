@@ -70,8 +70,8 @@ trumpetBb = \relative c'' {
   \break
   g'8 g16. r32 r2 | g8 f16 g8 f16 g8.g8 a16 | 
   g8 g16 r2 f16 | g8 f16 g8 f16 g8. g8 a16 |
-  g8 g16 g8 g16 g8 f16 g8. | f8 g8. a8 r8 g'8 a16 |
-  \mark "dai-sy-y" g4. f8 d8 r8 | 
+  g8 g16 g8 g16 g8 f16 g8. | f8 g8. a8 r8 c8( d16 |
+  \mark "dai-sy-y" c4. b8 a8) r8 |
   \break % a22
   r8 d,16 d8 d16 \breathe g8 g16 g8 f16 | 
   d8. f16 r8 d8. f16 r8 | d8. f16 r8 g8 a16 g8. |
