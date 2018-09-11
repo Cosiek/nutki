@@ -35,7 +35,7 @@ trumpetBb = \relative c'' {
   g8 g16 r2 f16 | 
   \break
   g8 f16 g8 f16 g8. g8 a16 |
-  g8 g16 r16 r8 f8 f16 r16 r8 | d8 d16 r8 r16 g,8 a4 |
+  g8 g16 r16 r8 f8 f16 r16 r8 | d8 d16 r8 r16 a8 c4 |
   \break
   r4. g'8 a16 g8 f16 | d8. f16 r8 d8. f16 r8 |
   d8. f16 r8 g8 a16 g8. | 
