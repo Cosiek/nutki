@@ -99,7 +99,7 @@ trumpetBb = \relative c'' {
   g16 a16 g8. f16 g16 a16 g8. f16 | g16 f16 d4 r16 r8.
   f8 | %{ a31 %} g16 f16 d4 \breathe c'8 c8 c8( | d4.) e4. |
   \break
-  g16 a16 g8. f16 g16 a16 g8. f16 |
+  g,16 a16 g8. f16 g16 a16 g8. f16 |
   % a32
   g16 f16 d4 r16 r8. f8 | %{ a31 %} g16 f16 d4 r8 r4 |
   g16 a16 g8. f16 g16 a16 g8. f16 |
