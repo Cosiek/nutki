@@ -17,6 +17,7 @@ global = {
 trumpetBb = \relative c'' {
   \global
   \transposition es
+  \mark "cicho"
   r8. f,8. d8 d8. f16 | f8. f8 f16 d8 d16 d8 f16 |
   f8 f16 f8 f16 g8 d16 d8 c16 | d8 f4 r4 r8 |
   \break
