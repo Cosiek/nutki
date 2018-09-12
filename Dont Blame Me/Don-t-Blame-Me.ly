@@ -42,7 +42,7 @@ trumpetBb = \relative c'' {
   \break
   d8. f16 r8 d8. f16 r8 | d8. f16 r8 g8 a16 g8. |
   d8. f16 r8 d8. f16 r8 | d8. f16 r8 g8 a16 g8. |
-  r4 r16 f16 g8 f16 g8 f16 | g8. g4 d8( d8.)|
+  r4 r16 f16 g8 f16 g8 f16 | a8. g4 g8( g8.)|
   \break
   \mark "Refren"
   r8. f8. d8 d8. f16 (|f8.) f8 f16 d8 d16 d8 f16 |
