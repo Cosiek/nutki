@@ -74,12 +74,9 @@ trumpetBb = \relative c'' {
   g8 g16 g8 g16 g8 f16 g8. | f8 g8. a8 r8 c8( d16 |
   \mark "dai-sy-y" c4. b8 a8) r8 |
   \break % a22
-  r8 d,16 d8 d16 \breathe g8 g16 g8 f16 | 
-  d8. f16 r8 d8. f16 r8 | d8. f16 r8 g8 a16 g8. |
-  \break % a23 
-  d8. f16 r8 d8. f16 r8 | d8. f16 r8 g8 a16 g8. |
-  d8. f16 r8 d8. f16 r8 | d8. f16 r8 g8 a16 g8. |
-  % a24
+  g8 g16 g8 f16 d8. f16 r8 | d8. f16 r8 g8 a16 g8. |
+  %{ a23 %} d8. f16 r8 d8. f16 r8 | g8 a16( g8.) d8. f16 r8 |
+  d8. f16 r8 g8 a16 g8. | %{ a24 %}
   r4 r16 f16 g8 f16 g8 f16 | g8. g4. d8. |
   \break
   \mark "Refren"
