@@ -19,20 +19,14 @@ global = {
 
 trumpetC = \relative c' {
   \global
-  d2~d8 a4 d8 | f4. d8~d2 |
-  d'2~d8 e4 d8 | a2. r4 |
-  \break
-  b2~b8 a4 g8 | a4. d,8~d2 |
-  g2~g8 e4 d8 | e2. r4 |
-  \break
-  d2~d8 a4 d8 | f4. d8~d2 |
-  d'2~d8 e4 d8 | a2. r4 |
-  \break
-  b2~b8 c4 d8 | d4. a'8~a4. r8 |
-  f2~f8 e4 d8 | d2. r4 |
-  \break
-  d2~d8 e4 f8 | f4. a8~a4. r8 |
-  f2~f8 e4( d8) | c2~c8 b8 a4 |
+  f4~f4.c4 f8 | a4. f4~f4 r8 | f4~f4. g4 f8 | c2. r4 | \break
+  d4~d4. e4 f8 | f4. c'4~c4 r8 | a4~a4. g4 f8 | f2. r4 | \break
+  \repeat volta 2 {
+  f4~f4. c4 f8 | a4. f4~f4 r8 | f'4~f4. g4 f8 | c2. r4 | \break
+  d4~d4. c4 bes8 | c4. f,4~f4 r8 | bes4~bes4. g4 f8 | g2. r4 | \break
+  f4~f4. c4 f8 | a4. f4~f4 r8 | f'4~f4. g4 f8 | c2. r4 | \break
+  d4~d4. e4 f8 | f4. c'4~c4 r8 | a4~a4. g4 f8 | f1
+  }
 }
 
 \score {
@@ -42,6 +36,6 @@ trumpetC = \relative c' {
   } \trumpetC
   \layout { }
   \midi {
-    \tempo 4=92
+    \tempo 4=74
   }
 }
